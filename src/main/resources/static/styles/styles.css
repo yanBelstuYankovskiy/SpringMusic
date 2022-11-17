@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #765f7d;
+}
+
+.header{
+    text-align: center;
+}
+
+.logo{
+    display: block;
+}
+
+.links
+{
+    text-decoration: none;
+    color: #cccccc;
+}
+
+
+
+.page__body{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+.songs_list{
+    width: 100%;
+    max-width: 770px;
+    margin: 20px 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}
+
+#mail_message{
+    margin: 0 5px;
+}
+
+/* forms */
+
+.login__form, .registration__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.login__form__wrapper, .registration__form__wrapper{
+    background: #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}

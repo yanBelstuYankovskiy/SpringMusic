@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: #765f7d;
+}
+
+.page__body{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+
+.songs_list{
+    width: 100%;
+    max-width: 770px;
+    margin: 20px 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+}

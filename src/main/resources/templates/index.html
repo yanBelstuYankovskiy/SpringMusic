@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Music</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/styles/styles.css}">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="logo"> Spring Music</h1>
+        </header>
+        <div class="page__body index__body">
+            <div>
+                <h4>Admin: <a class="links" th:href="${'/admin'}">admin page</a></h4>
+                <h4>Client: <a class="links" th:href="${'/client'}">client page</a></h4>
+            </div>
+        </div>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
